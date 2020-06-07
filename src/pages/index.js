@@ -11,12 +11,7 @@ const IndexPage = () => (
     <h1>Clemens Peters</h1>
     <p>Welcome my website.</p>
     <p>Let's keep it DRY for now.</p>
-    <div
-      style={{
-        maxWidth: `300px`,
-        marginBottom: `1.45rem`,
-      }}
-    >
+    <div class="image-container">
       <Image />
     </div>
   </Layout>
