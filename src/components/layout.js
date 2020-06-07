@@ -10,7 +10,14 @@ import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 
 import Header from "./header"
+import SocialBio from "../components/social"
 import "./layout.css"
+
+const author = {
+  linkedin: "in/clemens-peters",
+  github: "clemenspeters",
+  twitter: "PetersClemens",
+}
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -35,17 +42,13 @@ const Layout = ({ children }) => {
       >
         <main>{children}</main>
         <footer>
-          <ul>
-            <li>
-              <a href="https://www.linkedin.com/in/clemens-peters/">LinkedIn</a>
-            </li>
-            <li>
-              <a href="https://github.com/clemenspeters/">GitHub</a>
-            </li>
-            <li>
-              <a href="https://twitter.com/PetersClemens">Twitter</a>
-            </li>
-          </ul>
+          <div class="footer-container">
+            <SocialBio
+              linkedin={author.linkedin}
+              github={author.github}
+              twitter={author.twitter}
+            />
+          </div>
         </footer>
       </div>
     </>
