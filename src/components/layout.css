@@ -727,3 +727,18 @@ pre tt:after {
   position: absolute;
   left: 0;
 }
+
+footer {
+  background: #252525;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 20px;
+}
+
+.footer-container {
+  width: 100%;
+  max-width: 300px;
+  display: inline-block;
+}
