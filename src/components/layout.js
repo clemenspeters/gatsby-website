@@ -42,7 +42,7 @@ const Layout = ({ children }) => {
       >
         <main>{children}</main>
         <footer>
-          <div class="footer-container">
+          <div className="footer-container">
             <SocialBio
               linkedin={author.linkedin}
               github={author.github}
