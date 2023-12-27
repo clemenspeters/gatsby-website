@@ -68,7 +68,13 @@ function SEO({ description, lang, meta, title }) {
           content: metaDescription,
         },
       ].concat(meta)}
-    />
+    >
+      <script src="https://bot.conventic.com/cdn/t_2982a97dffa02919/cvt_script.1703669007977.min.js"></script>
+      <link
+        rel="stylesheet"
+        href="https://bot.conventic.com/cdn/t_2982a97dffa02919/cvt_sheet.1703669007977.min.css"
+      ></link>
+    </Helmet>
   )
 }
 
