@@ -69,10 +69,10 @@ function SEO({ description, lang, meta, title }) {
         },
       ].concat(meta)}
     >
-      <script src="https://bot.conventic.com/cdn/t_2982a97dffa02919/cvt_script.1710783978513.min.js"></script>
+      <script src="https://bot.conventic.com/cdn/t_2982a97dffa02919/cvt_script.1710836907212.min.js"></script>
       <link
         rel="stylesheet"
-        href="https://bot.conventic.com/cdn/t_2982a97dffa02919/cvt_sheet.1710783978513.min.css"
+        href="https://bot.conventic.com/cdn/t_2982a97dffa02919/cvt_sheet.1710836907212.min.css"
       ></link>
     </Helmet>
   )
